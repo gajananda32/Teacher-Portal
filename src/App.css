@@ -1,4 +1,42 @@
-.App {
+@import url('https://font.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins',sans-serif;
+}
+
+/* body{
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  height: 100vh;
+  background: #cbdbff;
+} */
+
+.form-design {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f0f2f5;
+}
+
+.form-container {
+  width: 100%;
+  max-width: 400px;
+  padding: 24px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  background-color: #fff;
+}
+
+.btn{
+  width: 100%;
+}
+
+
+
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +73,38 @@
   to {
     transform: rotate(360deg);
   }
+} */
+.dashboard-layout {
+  min-height: 100vh;
+}
+
+.dashboard-header {
+  background: #001529;
+  padding: 0 24px;
+  display: flex;
+  align-items: center;
+}
+
+.dashboard-content {
+  padding: 24px;
+  background: #f0f2f5;
+}
+
+.table-container {
+  background: #fff;
+  padding: 24px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  position: relative;
+}
+
+.add-student-button {
+  display: flex;
+  justify-content: end;
+  align-items: end;
+  margin-top: 160px;
+}
+
+.dashboard-footer {
+  text-align: center;
 }
